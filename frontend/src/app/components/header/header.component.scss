@@ -1,0 +1,36 @@
+nav img{
+    width: 70px;
+   }
+nav{
+    text-decoration-color: #29838C;
+    background-color: #D4E7EE;
+    padding: 20px;
+    display: flex;
+}
+ul{
+    background: #D4E7EE;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 100%;
+    margin: auto;
+}
+ul li{
+    height: 50px;
+    padding: 10px;
+}
+
+a {
+    display: inline-block;
+    padding: 1em;
+    border-right: 1px solid #ADC0CE;
+    background: rgba(173, 192, 206, .3);
+    color: #29838C;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+a:hover {
+    background: #ADC0CE
+}
