@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+}
+nav img{
+    width: 150px;
+    display:flex;
+}
+nav{
+    text-decoration-color: #29838C;
+    background-color: #D4E7EE;
+    padding: 10px;
+    
+}
+ul{
+    background: #D4E7EE;
+    overflow: hidden;
+    padding: 0;
+    display:inline-block-type;
+
+}
+ul li{
+    display:flex;
+    padding: 10px;
+}
+li {
+    float: left;
+}
+
+a {
+    display: inline-block;
+    padding: 1em;
+    border-right: 1px solid #ADC0CE;
+    background: rgba(173, 192, 206, .3);
+    color: #29838C;
+    text-decoration: none;
+  }
+a:hover {
+    background: #ADC0CE
+}
